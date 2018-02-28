@@ -52,7 +52,7 @@ To prepare the scenes with random camera jitters and visual noises, please run
             bash prepare_all_scenes_with_jitters.sh
 
 
-## Visualize the Scenes
+## Code Details
 
 You need to first crop regular images from the panoramic 360 images. To process each scene, go to `scripts` folder and run
 
