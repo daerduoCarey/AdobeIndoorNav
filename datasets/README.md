@@ -1,1 +1,1 @@
-To download the raw data, please fill in the google form: 
+To download the raw data, please send email to: kaichun@cs.stanford.edu
