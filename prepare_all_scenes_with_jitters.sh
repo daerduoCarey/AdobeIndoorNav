@@ -24,8 +24,8 @@ echo "Finished."
 # visu
 cd ..
 echo "Data is ready! Please run "
-echo "\n\t\t cd visu && python keyboard_agent.py [scene_name] --h5_dir panorama_images_cropped_rgb_images_with_jitters"
-echo "\n to visualize the scene [scene_name]"
-echo "\n For example, run "
-echo "\n\t\t cd visu && python keyboard_agent.py et12-kitchen --h5_dir panorama_images_cropped_rgb_images_with_jitters"
-echo "\n to visualize the et12-kitchen scene."
+echo -e "\n\t\t cd visu && python keyboard_agent.py [scene_name] --h5_dir panorama_images_cropped_rgb_images_with_jitters"
+echo -e "\n to visualize the scene [scene_name]"
+echo -e "\n For example, run "
+echo -e "\n\t\t cd visu && python keyboard_agent.py et12-kitchen --h5_dir panorama_images_cropped_rgb_images_with_jitters"
+echo -e "\n to visualize the et12-kitchen scene."
