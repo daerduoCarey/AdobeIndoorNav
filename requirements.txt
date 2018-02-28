@@ -1,0 +1,11 @@
+h5py
+numpy
+scipy
+progressbar2
+matplotlib
+opencv-python
+scipy
+json
+pyglet
+scikit-image
+

@@ -2,7 +2,14 @@
 
 ![Dataset Overview](https://github.com/daerduoCarey/AdobeIndoorNav/blob/master/images/dataset_overview.png)
 
-Figure 1. The AdobeIndoorNav Dataset and other 3D scene datasets. Our dataset supports research on robot visual navigation in real-world scenes. It provides visual inputs given a robot position: (a) the original 3D point cloud reconstruction; (b) the densely sampled locations shown on 2D scene map; (c) four examples RGB images captured by robot camera and their corresponding locations and poses. Sample views from 3D synthetic and real-world recontructed scene datasets: (d) Observation images from two synthetic datasets: [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html) and [AI2-THOR](http://ai2thor.allenai.org/); (e) Rendered images from two real-world scene datasets: [Stanford 2D-3D-S](http://buildingparser.stanford.edu/) and [ScanNet](http://www.scan-net.org/).
+**Figure 1. The AdobeIndoorNav Dataset and other 3D scene datasets.** Our dataset supports research on robot visual navigation in real-world scenes. It provides visual inputs given a robot position: (a) the original 3D point cloud reconstruction; (b) the densely sampled locations shown on 2D scene map; (c) four examples RGB images captured by robot camera and their corresponding locations and poses. Sample views from 3D synthetic and real-world recontructed scene datasets: (d) Observation images from two synthetic datasets: [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html) and [AI2-THOR](http://ai2thor.allenai.org/); (e) Rendered images from two real-world scene datasets: [Stanford 2D-3D-S](http://buildingparser.stanford.edu/) and [ScanNet](http://www.scan-net.org/).
+
+## About the paper
+
+Arxiv Version: https://arxiv.org/abs/1802.08824
+Project Page: https://cs.stanford.edu/~kaichun/adobeindoornav/
+Video: https://youtu.be/iqo1ihr_qXI
+Contact: kaichun@cs.stanford.edu
 
 ## About this repository
 
@@ -13,7 +20,7 @@ This repository contains the AdobeIndoorNav dataset and the relevant codes for v
 
 All the code is tested in Python2.7. Please run the following commands to install the dependencies.
 
-           pip install -r dependencies.txt
+           pip install -r requirements.txt
 
 
 ## The Dataset
@@ -27,9 +34,17 @@ The dataset statistics are in `stats` folder. It contains the sparse landmark lo
 
 ## Quick Start
 
-You run run the following command to quickly browse in *et12-kitchen* scene.
+You can run the following command to quickly browse in *et12-kitchen* scene.
 
             bash quick_browse.sh
+
+To prepare all the 24 scenes for visualization, run the following command. This will take a while. Be patient. Please make sure you have downloaded the dataset and put it under folder `datasets/adobeindoornav_dataset`.
+
+            bash prepare_all_scenes.sh
+
+To prepare the scenes with random camera jitters and visual noises, please run
+
+            bash prepare_all_scenes_with_jitters.sh
 
 
 ## Visualize the Scenes
