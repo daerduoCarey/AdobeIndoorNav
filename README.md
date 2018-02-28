@@ -28,7 +28,9 @@ All the code is tested in Python2.7. Please run the following commands to instal
 
 ## The Dataset
 
-Please check the `README.md` under folder `datasets` to download the dataset. The first-version dataset contains 24 scenes (i.e. 15 office rooms, 5 conference rooms, 2 open spaces, 1 kitchen, 1 storage room). For each scene, we propose the raw 3D point cloud in `ply` format, the 2D obstacle map and laser-scan map, the ground-truth world graph map and a set of densely captured panoramic 360 images at each observation location.
+Please check the `README.md` under folder `datasets` to download the dataset. 
+
+The first-version dataset contains 24 scenes (i.e. 15 office rooms, 5 conference rooms, 2 open spaces, 1 kitchen, 1 storage room). For each scene, we propose the raw 3D point cloud in `ply` format, the 2D obstacle map and laser-scan map, the ground-truth world graph map and a set of densely captured panoramic 360 images at each observation location.
 
 The dataset splits are in `splits` folder. It contains the train/test split and all scene sub-category splits.
 
