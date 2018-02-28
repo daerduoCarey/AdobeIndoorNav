@@ -1,0 +1,5 @@
+et07-cr-galgary
+et12-cr-hamburg
+et12-cr-helsinki
+et12-cr-hongkong
+et12-cr-honolulu
