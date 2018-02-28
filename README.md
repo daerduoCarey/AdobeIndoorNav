@@ -7,8 +7,11 @@
 ## About the paper
 
 Arxiv Version: https://arxiv.org/abs/1802.08824
+
 Project Page: https://cs.stanford.edu/~kaichun/adobeindoornav/
+
 Video: https://youtu.be/iqo1ihr_qXI
+
 Contact: kaichun@cs.stanford.edu
 
 ## About this repository
